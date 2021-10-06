@@ -1,0 +1,789 @@
+// index page css is here
+#index-banner{
+    padding: 126px 0px 190px 0px;
+    h3{
+        font-weight: 600;
+        padding-right: 50px;
+    }
+}
+
+  /*  ============================
+          index banner part end
+     ===============================*/
+
+  /*  ===============================
+          COPD Management part start
+     =================================*/
+     #management{
+       background-color: $fafa_col;
+       padding-top: 48px;
+        .copd-Content{
+            h3{
+              padding-bottom: 10px;
+            }
+            h2{
+              padding-bottom: 14px;
+            }
+        }
+        .copd-video{
+          padding-top: 42px;
+          padding-bottom: 64px;
+          .video-img{
+            height:356px;
+            width: 636px;
+            background-color: red;
+            margin: 0 auto;
+            position: relative;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+            i{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%,-50%);
+              text-align: center;
+              color: white;
+              border-radius: 50%;
+              font-size: 110px;
+              @include trans(0.4s,0s);
+              &:hover{
+                box-shadow: 0px 0px 20px 5px white;
+              }
+
+            }
+          }
+        }
+     }
+  /*  ===============================
+          COPD Management part end
+     =================================*/
+
+
+  
+
+
+  /*  ===============================
+         Employee wellness part start
+     =================================*/
+     #employee_wellness{
+       background-color: $fafa_col;
+       padding-top: 48px;
+        .copd-Content{
+            h3{
+              padding-bottom: 10px;
+            }
+            h2{
+              padding-bottom: 14px;
+            }
+        }
+        .copd-video{
+          padding-top: 42px;
+          padding-bottom: 64px;
+          .video-img{
+            height:356px;
+            width: 636px;
+            background-color: red;
+            margin: 0 auto;
+            position: relative;
+            border: 1px solid $main_col;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+            i{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%,-50%);
+              text-align: center;
+              color: $main_col;
+              border-radius: 50%;
+              font-size: 110px;
+              @include trans(0.4s,0s);
+              &:hover{
+                box-shadow: 0px 0px 20px 5px $main_col;
+              }
+
+            }
+          }
+        }
+     }
+  /*  ===============================
+          Employee wellness part end
+     =================================*/
+
+     /*  ===============================
+        reading part start
+     =================================*/
+     #reading{
+      background: $f2f3_col;
+      .reading-item{
+        .reading-img{
+          margin-top: 87px;
+          height: 314px;
+          width: 540px;
+          margin-left: 15;
+          img{
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .reading-content{
+          padding-top: 132px;
+          padding-left: 42px;
+          padding-right: 75px;
+          .header-center{
+            text-align: center;
+            img{
+              height: 32px;
+              width: 35px;
+              margin-top: 17px;
+            }
+            p{
+              padding-top: 19px;
+              text-align: center;
+            }
+          }
+          ul{
+            margin-left: 10px;
+            padding-top: 17px;
+            padding-bottom: 15px;
+            li{
+              list-style: disc;
+             font-size: 14px;
+             font-weight: 600;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: 1.43;
+             letter-spacing: 0px;
+             color: #585a6a;
+            }
+          }
+          p{
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            color: #585a6a;
+
+          }
+        }
+      }
+    }
+ /*  ===============================
+        reading part start
+    =================================*/
+
+
+
+     /*  ===============================
+        expart part start
+     =================================*/
+     #expart{
+      background: $f2f3_col;
+      .expart-item{
+        padding-top: 110px;
+        .expart-img{
+          height: 262px;
+          width: 352px;
+          margin-left: 15;
+          img{
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .expart-content{
+          padding-top: 25px;
+          padding-left: 85px;
+          padding-right: 80px;
+          .header-center{
+            text-align: center;
+            img{
+              height: 32px;
+              width: 35px;
+              margin-top: 14px;
+            }
+            p{
+              padding-top: 14px;
+              text-align: center;
+            }
+          }
+          ul{
+            margin-left: 10px;
+            padding-top: 34px;
+            li{
+              list-style: disc;
+             font-size: 14px;
+             font-weight: 600;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: 1.43;
+             letter-spacing: 0px;
+             color: #585a6a;
+            }
+          }
+          p{
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            color: #585a6a;
+
+          }
+        }
+      }
+    }
+ /*  ===============================
+        expart part start
+    =================================*/
+
+
+     /*  ===============================
+        community part start
+     =================================*/
+     #community{
+      background: $f2f3_col;
+      padding-top: 100px;
+      padding-bottom: 126px;
+      .community-item{
+        .community-img{
+          margin-top: 72px;
+          height: 262px;
+          width: 351px;
+          margin: 0 auto;
+          img{
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .community-content{
+          padding-top: 23px;
+          padding-left: 150px;
+          padding-right: 45px;
+          .header-center{
+            text-align: center;
+            img{
+              height: 32px;
+              width: 35px;
+              margin-top: 17px;
+            }
+            p{
+              padding-top: 19px;
+              text-align: center;
+            }
+          }
+          ul{
+            margin-left: 10px;
+            padding-top: 17px;
+            li{
+              list-style: disc;
+             font-size: 14px;
+             font-weight: 600;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: 1.43;
+             letter-spacing: 0px;
+             color: #585a6a;
+            }
+          }
+          p{
+            font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #585a6a;
+
+          }
+        }
+      }
+    }
+ /*  ===============================
+        reading part start
+    =================================*/
+     
+
+     /*  ===============================
+        physio part start
+     =================================*/
+     #physio{
+      background: $f2f3_col;
+      .physio-item{
+        .physio-img{
+          padding-top: 72px;
+          height: 362px;
+          width: 351px;
+          margin: 0 auto;
+        }
+        
+        .physio-content{
+          padding-top: 48px;
+          padding-left: 80px;
+          .header-center{
+            text-align: center;
+            img{
+              height: 32px;
+              width: 35px;
+              margin-top: 17px;
+            }
+            p{
+              padding-top: 19px;
+              text-align: center;
+            }
+          }
+          ul{
+            margin-left: 10px;
+            padding-top: 17px;
+            padding-bottom: 60px;
+            li{
+              list-style: disc;
+             font-size: 14px;
+             font-weight: 600;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: 1.43;
+             letter-spacing: 0px;
+             color: #585a6a;
+             width: 50%;
+             float: left
+            }
+          }
+          p{
+            font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #585a6a;
+
+          }
+        }
+      }
+    }
+ /*  ===============================
+        paysio part start
+    =================================*/
+
+
+    
+     /*  ===============================
+        talk part start
+     =================================*/
+     #talk{
+      background: $f2f3_col;
+      .talk-item{
+        padding-top: 110px;
+        .talk-img{
+          height: 314px;
+          width: 540px;
+          margin: 0 auto;
+          img{
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .talk-content{
+          padding-top: 25px;
+          padding-left: 40px;
+          padding-right: 25px;
+          .header-center{
+            text-align: center;
+            img{
+              height: 32px;
+              width: 35px;
+              margin-top: 14px;
+            }
+            p{
+              padding-top: 14px;
+              text-align: center;
+            }
+          }
+          ul{
+            margin-left: 10px;
+            padding-top: 34px;
+            li{
+              list-style: disc;
+             font-size: 14px;
+             font-weight: 600;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: 1.43;
+             letter-spacing: 0px;
+             color: #585a6a;
+            }
+          }
+          p{
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            color: #585a6a;
+
+          }
+        }
+      }
+    }
+ /*  ===============================
+        expart part start
+    =================================*/
+
+
+     /*  ===============================
+        Report part start
+     =================================*/
+     #report{
+      background: $f2f3_col;
+      padding-top: 122px;
+      padding-bottom: 63px;
+      .report-item{
+        .report-img{
+          height: 294px;
+          width: 351px;
+          padding-top: 32px;
+          margin: 0 auto;
+          img{
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .report-content{
+          padding-left: 80px;
+          .header-center{
+            text-align: center;
+            img{
+              height: 32px;
+              width: 35px;
+              margin-top: 17px;
+            }
+            p{
+              padding-top: 19px;
+              text-align: center;
+            }
+          }
+          ul{
+            margin-left: 10px;
+            padding-top: 17px;
+            padding-bottom: 15px;
+            li{
+              list-style: disc;
+             font-size: 14px;
+             font-weight: 600;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: 1.43;
+             letter-spacing: 0px;
+             color: #585a6a;
+            }
+          }
+          p{
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            color: #585a6a;
+
+          }
+        }
+      }
+    }
+ /*  ===============================
+        Report part start
+    =================================*/
+
+
+  /*  ============================
+          core team part start
+     ===============================*/
+
+  /*  ============================
+          core team part start
+     ===============================*/
+    #index-team{
+        padding-top: 68px;
+        padding-bottom: 112px;
+        .team-header{
+            p{
+                padding-left: 40px;
+                padding-bottom: 68px;
+            }
+        }
+        .team-member-slider{
+
+            .memberImages{
+              height: 320px;
+              width:480px ;
+                height: 320px;
+                margin: 0 auto;
+              .member-img{
+                width:480px ;
+                height: 320px;
+              }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .membersDetails{
+                text-align: center;
+                padding-top: 27px;
+                .memberItem{
+                    float: left;
+                    width: 33.3333333%;
+                    text-align: center;
+                    h5{
+                        font-size: 20px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: #5a67b2;
+                        padding-bottom: 8px;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: #5a67b2;
+                        padding-bottom: 65px;
+                    }
+                }
+            }
+        }
+        .m-btn{
+            padding: 0px 13px 0 50px;
+            position: relative;
+            @include trans(.3s, 0s);
+            i{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 10px;
+                font-size: 30px;
+                display: inline-block;
+                line-height: 40px;
+                background-color: transparent;
+                color: white;
+                @include trans(.3s, 0s);
+            }
+            &:hover i{
+                color: $main_col;
+            }
+        }
+    }
+
+  /*  ============================
+          core team part end
+  ============================ */
+
+
+
+
+  /*  ============================
+          contact page css start
+  ============================ */
+#contact-banner {
+  text-align: center;
+  background: $fafa_col;
+ }
+ #contact-banner h3{
+   padding-top: 68px;
+   padding-bottom: 16px;
+ }
+ 
+  #contact-banner ol li {
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $main_col;
+    
+   }
+
+  #contact-form{
+    background: $fafa_col;
+    padding-bottom: 88px;
+    .lert-success {
+      position: absolute;
+      left: 50%;
+      top: 222px;
+      transform: translateX(-50%);
+      width: 272px;
+      padding: 35px 22px 46px;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+      background: white;
+      text-align: center!important;
+      z-index: 999;
+      p {
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #8d97d7;
+        text-align:left;
+        margin-top: 19px;
+      }
+      i {
+        font-size: 16px;
+        line-height: 40px;
+        width: 40px;
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+        background: #8d97d7;
+      }
+    }
+    form {
+      background: $f2f3_col;
+      padding: 30px;
+      border-radius: 17px;
+      margin-top: 53px;
+      text-align: center;
+      h3 {
+        padding-bottom: 15px;
+        text-align: left; }
+     }
+     input {
+      width: 100%;
+      line-height: 19px;
+      font-size: 14px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #a2a2a2;
+      margin-bottom: 20px;
+      border: 0;
+      opacity: .50;
+    }
+    textarea {
+      width: 100%;
+      height: 180px;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #a2a2a2;
+      margin-bottom: 20px;
+      border: 0;
+      opacity: .50;
+      
+     }
+     button {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 42px;
+      letter-spacing: normal;
+      text-align: center;
+      color: white;
+      background: rgba(90, 103, 178, 0.8);
+      display: inline-block;
+      border: 1px solid rgba(90, 103, 178, 0);
+      padding: 0 50px;
+      margin: 0 auto;
+      -webkit-transition: all linear 0.3s 0s;
+      -moz-transition: all linear 0.3s 0s;
+      -o-transition: all linear 0.3s 0s;
+      transition: all linear 0.3s 0s;
+        &:hover {
+        color: rgba(90, 103, 178, 0.8);
+        background: white;
+        border: 1px solid #5a67b2; }
+      }
+
+  }
+
+/*  ============================
+            contact  css end
+    ============================ */
+
+
+/*  ============================
+            Footer css start
+    ============================ */
+
+
+    footer {
+        opacity: 0.88;
+        
+        .footer_nav{
+          background: #f2f3f5;
+          ul {
+            padding: 40px 0px 30px 0px;
+            text-align: center; 
+            li {
+              text-align: center;
+              padding: 5px 0px;
+              a {
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 15px;
+              font-weight: 600;
+              font-family: 'Nunito Sans', sans-serif;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              text-align: center;
+              color: #5a67b2;
+               &:hover {
+                  color: #5a67b2; 
+                }
+              }
+           }
+        }
+        }
+        .footer-copyright{
+          p{
+            font-size: 15px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 49px;
+            letter-spacing: normal;
+            text-align: center;
+            color: #979797;
+          }
+        }
+       
+   }
+
+
+/*  ============================
+            Footer css end
+    ============================ */
+      

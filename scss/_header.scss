@@ -1,0 +1,33 @@
+header{
+  padding: 36px 0px 24px 0px;
+  .navbar-brand{
+    img{
+      height: 45px;
+    display: inline-block;
+    }
+  }
+  .navbar-nav{
+    .nav-item{
+      .nav-link{
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #5a67b2;
+        padding: 14px 20px;
+       
+      }
+      .m-btn{
+        color: white;
+        @include trans(0.4s,0s);
+        &:hover{
+          color: $main_col;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
