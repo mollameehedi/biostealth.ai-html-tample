@@ -1,0 +1,475 @@
+@media only screen and (max-width: 575px) {
+    .mobile-block{
+            display: block !important;
+        }
+    .mobile-none{
+            display: none !important;
+        }
+        .mobile_p0{
+            padding: 0 !important;
+        }
+    h3{
+        font-size: 26px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: italic;
+        line-height: 1.15;
+        letter-spacing: -0.29px;
+        color: #5a67b2;
+      }
+      h2{
+        font-size: 28px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: italic;
+        line-height: normal;
+        letter-spacing: -0.31px;
+        color: #5a67b2;
+      }
+      h4{
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: italic;
+        line-height: normal;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #585a6a;
+      }
+    
+    
+        header {
+            padding: 5px 0px;
+            .navbar{
+                padding-left: 20px;
+            }
+        }
+        header .navbar-brand img {
+            height: 28px;
+        }
+        header .navbar-nav .nav-item .nav-link {
+            padding: 10px 0px;
+        }
+        header .navbar-nav .nav-item .nav-link.active::after {
+            height: 1px;
+        }
+        header .navbar-nav .nav-item .nav-link::after {
+            height: 1px;
+        }
+        #index-banner h3 {
+            font-size: 20px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: italic;
+            line-height: 1.5;
+            letter-spacing: -0.22px;
+            text-align: center;
+            color: #5a67b2;
+            padding: 0 10px;
+        }
+        #index-banner .m-btn {
+            line-height: 45px;
+            padding: 0px 8px;
+            font-size: 16px;
+            text-align: center;
+            margin:0 auto;
+            display: inline-block;
+            margin-top: 40px;
+        }
+        #index-banner {
+            padding: 102px 0px 52px 0px;
+            text-align: center;
+        }
+        #management {
+            padding-top: 30px;
+        }
+        #management .copd-Content{
+            padding:0px 15px
+        }
+        #management .copd-Content h3 {
+            padding-bottom: 22px;
+        }
+        #management .copd-Content h2 {
+            padding-bottom: 8px;
+        }
+        #management .copd-video .video-img {
+            width: 100%;
+            height: 168px;
+        }
+        #management .copd-video {
+            padding-top: 40px;
+            padding-bottom: 56px;
+        }
+        #management .copd-video .video-img i {
+            font-size: 75px;
+        }
+
+
+
+        // reading part 
+
+        #reading .reading-item .reading-img {
+            width: 100%;
+            height:174px;
+            margin-top: 50px;
+        }
+        #reading .reading-item .reading-content {
+            padding-top: 40px;
+        }
+        #reading .reading-item .reading-content .header-center p {
+            padding-top: 16px;
+        }
+        #reading .reading-item .reading-content ul {
+            padding-top: 34px;
+        }
+
+
+        // expart part start
+
+        #expart .expart-item .expart-img {
+            width: 100%;
+            height: 224px;
+        }
+        #expart .expart-item {
+            padding-top: 71px;
+        }
+        #expart .expart-item .expart-content {
+            padding-top: 40px;
+            padding-left: 24px;
+            padding-right: 25px;
+        }
+        
+        #community {
+            padding-top: 84px;
+            padding-bottom: 12px;
+        }
+        #community .community-item .community-img {
+            width: 100%;
+            height: 224px;
+        }
+        #community .community-item .community-content {
+            padding-top: 40px;
+            padding-left: 19px;
+            padding-right: 19px;
+        }
+        #community .community-item .community-content .header-center img {
+
+            margin-top: 13px;
+        }
+        #community .community-item .community-content .header-center p {
+            padding-top: 14px;
+        }
+
+        // employee wellness part start here
+        #employee_wellness {
+            padding-top: 50px;
+        }
+        #employee_wellness .copd-Content{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        #employee_wellness .copd-Content h3 {
+            padding-bottom: 22px;
+        }
+        #employee_wellness .copd-Content h2 {
+            padding-bottom: 8px;
+        }
+        #employee_wellness .copd-video .video-img {
+            width: 100%;
+            height: 168px;
+        }
+        #employee_wellness .copd-video .video-img i {
+            font-size: 75px;
+        }
+        #employee_wellness .copd-video {
+            padding-top: 40px;
+            padding-bottom: 56px;
+        }
+
+        
+
+        // physio part start
+        #physio .physio-item .physio-content {
+            padding: 0 1px;
+            padding-top: 40px;
+        }
+        #physio .physio-item .physio-img {
+            width: 100%;
+            height: 224px;
+            padding-top: 50px;
+        }
+        #physio .physio-item .physio-img img {
+            width: 100%;
+            height: 100%;
+        }
+        #physio .physio-item .physio-content p {
+            font-size: 12px;
+        }
+
+        // talk part start here
+        #talk .talk-item {
+            padding-top: 44px;
+        }
+        #talk .talk-item .talk-img {
+            width: 100%;
+            height: 161px;
+            padding-top: 0px;
+        }
+        #talk .talk-item .talk-content p {
+            font-size: 12px;
+        }
+        #talk .talk-item .talk-content {
+            padding-top: 53px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #talk .talk-item .talk-content .header-center p {
+            padding-top: 18px;
+        }
+        #talk .talk-item .talk-content ul {
+            padding-top: 15px;
+            padding-bottom: 16px;
+        }
+
+
+
+        #report {
+            padding-top: 54px;
+            padding-bottom: 0px;
+        }
+
+
+        #report .report-item .report-img {
+            width: 100%;
+            height: 224px;
+            padding-top: 0px;
+        }
+        #report .report-item .report-content {
+            padding: 40px 5px 0px 5px;
+        }
+        #report .report-item .report-content p {
+            font-size: 12px;
+        }
+
+
+
+       
+        
+        
+       #index-team h3{
+           font-size: 20px;
+           padding-bottom: 12px;
+       }
+       #index-team {
+      padding: 30px 0px;
+      border-top: 30px solid #f2f3f5;
+    }
+       #index-team p{
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.1px;
+        color: #5a67b2;
+       }
+       #index-team .team-header p {
+        padding: 0 5px;
+        padding-bottom: 30px;
+    }
+    
+        #index-team .team-member-slider .memberImages {
+            width: 100%;
+            height: 200px;
+        }
+        #index-team .team-member-slider .memberImages .member-img {
+            height: 200px;
+        }
+        #index-team .team-member-slider .membersDetails .memberItem {
+            padding: 0px 3px;
+        }
+        #index-team .team-member-slider .membersDetails .memberItem h5 {
+            font-size: 12px;
+        }
+        #index-team .team-member-slider .membersDetails .memberItem p {
+            font-size: 10px;
+            padding-bottom: 30px;
+        }
+        #index-team .team-member-slider .membersDetails {
+            padding-top: 16px;
+        }
+        #contact-banner h3 {
+            font-size: 20px;
+            padding-top: 30px;
+            padding-bottom:12px
+        }
+        #contact-banner ol li {
+            font-size: 12px;
+        }
+        #contact-form form {
+            padding: 12px 10px;;
+        }
+
+
+
+
+        #contact-form .lert-success {
+            top: 215px;
+            width: 250px;
+            padding: 15px 20px 15px;
+        }
+        footer .footer_nav ul {
+            padding: 30px 0px;
+        }
+
+
+        // index page css end ========
+
+
+        #paper-banner h2 {
+            font-size: 20px;
+            line-height: 98px;
+        }
+        #papers .paper-item .paaper-img img {
+            height: 254px;
+            width: 100%;
+        }
+        #papers .paper-item .paaper-img {
+            padding-top: 40px;
+        }
+        #papers .paper-item .paper-content {
+            padding: 0 15px;
+            text-align: center;
+        }
+        #papers .paper-item .paper-content h3 {
+            font-size: 20px;
+            padding: 25px 0px 16px 0px;
+        }
+        #papers .paper-item form {
+            margin-bottom: 35px;
+            margin-top: 30px;
+        }
+
+        #papers .paper-item2 .paaper-img img {
+            height: 254px;
+            width: 100%;
+        }
+        #papers .paper-item2 .paaper-img {
+            padding-top: 40px;
+        }
+        #papers .paper-item2 .paper-content {
+            padding: 0 15px;
+            text-align: center;
+        }
+        #papers .paper-item2 form {
+            margin-top: 30px;
+        }
+        #papers .paper-item2 .paper-content h3 {
+            font-size: 20px;
+            padding: 25px 0px 16px 0px;
+        }
+        #papers .paper-item2 {
+            padding-bottom: 40px;
+        }
+
+
+        //  blog page css start here
+        #blog-banner h2 {
+            font-size: 20px;
+        }
+        #blog ul li button {
+            font-size: 16px;
+            padding: 21px 12px;
+            margin: 0px; 
+        }
+        #blog .mixitupItems .blog-item {
+            height: 318px;
+            width: 100%;
+            display: inline-block;
+            padding: 0px 20px;
+            margin-bottom: 20px;
+        }
+        #blog .mixitupItems .blog-item img{
+            height:100%;
+        }
+        #blog .mixitupItems {
+            padding: 15px 0px;
+        }
+
+
+        // blog Details page css start
+
+        #blogDetails-banner {
+            padding: 25px 10px 27px 10px;
+        }
+        .p124 {
+            padding: 0px;
+        }
+        .pl124 {
+            padding: 0px;
+        }
+        .pr124 {
+            padding: 0px;
+        }
+
+        
+        #blogDetails-banner .pl124{
+            padding: 0px;
+        }
+        #blogDetails-banner .pr124{
+            padding: 0px;
+        }
+        #blogDetails-banner h4 {
+            font-size: 18px;
+        }
+        #blogDetails-banner h2 {
+            font-size: 20px;
+            padding-top: 12px;
+            text-align: center;
+            padding-bottom: 18px;
+        }
+        #blogDetails-banner p {
+            font-size: 14px;
+            padding-top: 0px;
+        }
+        #blogDetails-banner p img {
+            height: 30px;
+            width: 30px;
+            margin-right: 5px;
+        }
+        #blogDetails-banner .date-time {
+            font-size: 14px;
+            padding-top: 14px;
+        }
+        
+        #blogDetails-banner ul {
+            float: left;
+        }
+        #blogDetails {
+            padding-top: 0px;
+            padding-bottom: 30px;
+        }
+        #blogDetails img {
+            width: 100%;
+            height: 180px;
+        }
+        #blogDetails h2 {
+            font-size: 18px;
+            padding-top: 30px;
+        }
+        #blogDetails .loopcontent {
+            padding-top: 10px;
+        }
+        #blogDetails h3 {
+            font-size: 17px;
+        }
+        #blogDetails p {
+            font-size: 15px;
+        }
+        #blogDetails .loopcontent h4 {
+            font-size: 16px;
+            padding-top: 20px;
+        }
+
+
+      }

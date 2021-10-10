@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/venobox.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
@@ -70,11 +71,11 @@
             paper banner part start
     ================================== -->
 
-<section id="paper-banner">
+<section id="blog-banner">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Discover our white papers</h2>
+                <h2>Our IoT and embedded blog</h2>
             </div>
         </div>
     </div>
@@ -85,76 +86,59 @@
     ================================== -->
 
 
-
-<!--  ================================
-            papers part start
-    ================================== -->
-    <section id="papers">
-        <div class="paper-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="paaper-img">
-                  <img src="images/paper/img1.png" class="img-fluid" />
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="paper-content">
-                  <h3>AWS vs Azure - 3 keys to make your choice</h3>
-                  <p class="p12">We’ve put together three key considerations when choosing between AWS and Azure – read on to find out if you’ve made the right choice or be sure to do so on your next IoT cloud project.</p>
-                  <form action="#">
-                    <input type="text" placeholder="Name" class="form-control">
-                    <input type="text" placeholder="Company/Work Title" class="form-control">
-                    <input type="email" placeholder="Email" class="form-control">
-                    <div class="form-check text-left">
-                      <input type="checkbox" class="form-check-input check-input" id="exampleCheck1">
-                      <label class="form-check-label " for="exampleCheck1"><p class="p12 paper_checked_p">I have read <a href="#" class="p12">bioStealth’s Privacy Policy</a> and I agree to receive your communications.</p></label>
+ <section id="blog">
+        <div class="container">
+            <div class="row mainMix">
+                <div class="col-lg-12 p-0">
+                  
+                    <ul>
+                        <li><button type="button" data-filter="all">All</button></li>
+                        <li><button type="button" data-filter=".Design">Design</button></li>
+                        <li><button type="button" data-filter=".Software">Software</button></li>
+                        <li><button type="button" data-filter=".Hardware">Hardware</button></li>
+                    </ul>
+                  </div>
+                    <div class="col-lg-12 p-0">
+                      <div class="mixitupItems">
+                        <div class="mix category-a blog-item" data-order="1">
+                          <a href='blogDetails.html' class="blog-img">
+                          <img src="images/blog/blog1.png" class="img-fluid" alt="">
+                          <div class="blog-img-overlay">
+                            <h4>AWS vs Azure - 3 keys to make your choice</h4>
+                          </div>
+                          </a>
+                        </div>
+                          <div class="mix Design Hardware blog-item" data-order="2">
+                            <a href='blogDetails.html' class="blog-img">
+                              <img src="images/blog/blog1.png" class="img-fluid" alt="">
+                              <div class="blog-img-overlay">
+                                <h4>AWS vs Azure - 3 keys to make your choice</h4>
+                              </div>
+                              </a>
+                          </div>
+                          <div class="mix Software blog-item" data-order="3">
+                            <a href='blogDetails.html' class="blog-img">
+                              <img src="images/blog/blog1.png" class="img-fluid" alt="">
+                              <div class="blog-img-overlay">
+                                <h4>AWS vs Azure - 3 keys to make your choice</h4>
+                              </div>
+                              </a>
+                          </div>
+                          <div class="mix Hardware blog-item" data-order="4">
+                            <a href='blogDetails.html' class="blog-img">
+                              <img src="images/blog/blog1.png" class="img-fluid" alt="">
+                              <div class="blog-img-overlay">
+                                <h4>AWS vs Azure - 3 keys to make your choice</h4>
+                              </div>
+                              </a>
+                          </div>
+                      </div>
                     </div>
-                    <button class="btn">Download</button>
-                </form>
-                </div>
-              </div>
+                    
+                
             </div>
-          </div>
         </div>
-        <div class="paper-item2">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 desk_none mobile-block">
-                <div class="paaper-img">
-                  <img src="images/paper/img1.png" class="img-fluid" />
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="paper-content">
-                  <h3>3 Key Success Factors for Your IoT Project</h3>
-                  <p class="p12">Make Sure Your IoT Project is a Success!</p>
-                  <form action="#">
-                    <input type="text" placeholder="Name" class="form-control">
-                    <input type="text" placeholder="Company/Work Title" class="form-control">
-                    <input type="email" placeholder="Email" class="form-control">
-                    <div class="form-check text-left">
-                      <input type="checkbox" class="form-check-input check-input" id="exampleCheck1">
-                      <label class="form-check-label " for="exampleCheck1"><p class="p12 paper_checked_p">I have read <a href="#" class="p12">bioStealth’s Privacy Policy</a> and I agree to receive your communications.</p></label>
-                    </div>
-                    <button class="btn">Download</button>
-                </form>
-                </div>
-              </div>
-              <div class="col-lg-6 mobile-none">
-                <div class="paaper-img">
-                  <img src="images/paper/img1.png" class="img-fluid" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-<!--  ================================
-            papers part end
-    ================================== -->
-
-
+ </section>
 
 
 <!--  ============================
@@ -203,6 +187,10 @@
        <!--========== back to part ends ==============-->
 <i class="fas fa-arrow-up" id="back-to"></i>
 <!--========== back to  part ends ==============-->
+
+   <!--========== back to part ends ==============-->
+<i class="fas fa-arrow-up" id="back-to"></i>
+<!--========== back to  part ends ==============-->
  
  
      <script src="js/jquery-1.12.4.min.js"></script>
@@ -210,6 +198,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/venobox.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/script.js"></script>
    </body>
  </html>

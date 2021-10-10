@@ -17,6 +17,7 @@
 
 #papers{
     .paper-item{
+        background: $fafa_col;
         .paaper-img{
             padding-top: 111px;
             text-align: center;
@@ -38,7 +39,95 @@
                 background: $f2f3_col;
                 padding: 22px 17px;
                 border-radius: 17px;
-                margin-top: 53px;
+                margin-top: 19px;
+                padding-bottom: 28px;
+                margin-bottom: 55px;
+                text-align: center;
+               
+               input {
+                width: 100%;
+                line-height: 22px;
+                font-size: 14px;
+                font-family: 'Nunito Sans', sans-serif;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                color: #a2a2a2;
+                margin-bottom: 20px;
+                border: 0;
+                opacity: .50;
+              }
+              .check-input{
+                  width: 10%;
+                  height: 20px;
+                  width: 18px;
+                  margin-top: 0px;
+              }
+              .paper_checked_p{
+                padding-left: 11px;
+                padding-right: 15px;
+                padding-bottom: 22px;
+                a{
+                  font-family: 'Nunito Sans', sans-serif;
+                  text-decoration: underline;
+                }
+            }
+               button {
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #fff;
+                line-height: 42px;
+                text-align: center;
+                color: white;
+                background: $main_col;
+                display: inline-block;
+                border: 1px solid $main_col;
+                padding: 0 25px;
+                border-radius: 7px;
+                margin: 0 auto;
+                -webkit-transition: all linear 0.3s 0s;
+                -moz-transition: all linear 0.3s 0s;
+                -o-transition: all linear 0.3s 0s;
+                transition: all linear 0.3s 0s;
+                  &:hover {
+                  color: rgba(90, 103, 178, 0.8);
+                  background: white;
+                  border: 1px solid #5a67b2; }
+                }
+        }
+    }
+    .paper-item2{
+        padding-bottom: 84px;
+        .paaper-img{
+            padding-top: 138px;
+            text-align: center;
+            img{
+                height: 355px;
+                width: 420px;
+            }
+        }
+        .paper-content{
+            padding-left: 15px;
+            padding-right: 30px;
+            h3 {
+                padding-right: 58px;
+                padding-top: 55px;
+                padding-bottom: 15px;
+                }
+             }
+            form {
+                background: $f2f3_col;
+                padding: 22px 17px;
+                border-radius: 17px;
+                padding-bottom: 28px;
+                margin-top: 15px;
                 text-align: center;
                
                input {
@@ -75,33 +164,35 @@
                   width: 10%;
                   height: 20px;
                   width: 18px;
-                  p{
-                      a{
-                        font-family: 'Nunito Sans', sans-serif;
-                        font-size: 14px;
-                        font-weight: 600;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 1.43;
-                        letter-spacing: normal;
-                        color: #585a6a;
-                      }
-                  }
+                  margin-top: 0px;
               }
+              .paper_checked_p{
+                padding-left: 11px;
+                padding-right: 15px;
+                padding-bottom: 22px;
+                a{
+                  font-family: 'Nunito Sans', sans-serif;
+                  text-decoration: underline;
+                }
+            }
                button {
-                text-align: center;
+                font-family: 'Nunito Sans', sans-serif;
                 font-size: 16px;
                 font-weight: bold;
                 font-stretch: normal;
                 font-style: normal;
-                line-height: 42px;
+                line-height: normal;
                 letter-spacing: normal;
                 text-align: center;
+                color: #fff;
+                line-height: 42px;
+                text-align: center;
                 color: white;
-                background: rgba(90, 103, 178, 0.8);
+                background: $main_col;
                 display: inline-block;
-                border: 1px solid rgba(90, 103, 178, 0);
-                padding: 0 50px;
+                border: 1px solid $main_col;
+                padding: 0 25px;
+                border-radius: 7px;
                 margin: 0 auto;
                 -webkit-transition: all linear 0.3s 0s;
                 -moz-transition: all linear 0.3s 0s;

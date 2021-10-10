@@ -1,0 +1,108 @@
+
+#blog-banner{
+    text-align: center;
+    background: $f2f3_col;
+    h2{
+         font-size: 36px;
+         font-weight: bold;
+         font-stretch: normal;
+         font-style: italic;
+         line-height: 98px;
+         letter-spacing: 0px;
+         text-align: center;
+         color: #5a67b2;
+    }
+}
+
+
+#blog{
+    ul{
+        text-align: center;
+        li{
+            display: inline-block;
+            button{
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                background: transparent;
+                letter-spacing: -0.22px;
+                color: #3b3b3b;
+                border: none;
+                padding: 0 36px;
+                margin: 45px 0px;
+                &.mixitup-control-active{
+                    color:$main_col;
+                    border: 0;
+                }
+                &:focus{
+                        outline: 0;
+                }
+            }
+        }
+    }
+    .mixitupItems{
+        padding-bottom: 27px;
+        .blog-item{
+            width: 33%;
+            display: inline-block;
+            padding: 0px 20px;
+            margin-bottom: 30px;
+            
+            .blog-img{
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                @include trans(0.3s, 0s);
+                img{
+                    width: 100%;
+                    border-radius: 17px;
+                }
+                .blog-img-overlay{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0px;
+                    border-radius: 17px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 555;
+                    background-color: rgba(0, 0, 0, 0);
+                    @include trans(0.2s, 0s);
+                    h4{
+                        font-size: 20px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: -0.22px;
+                        color: #fff;
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0%;
+                        width: 100%;
+                        text-align: left;
+                        padding: 25px;
+                         transform: translateX(-50%);
+                         @include trans(0.3s, 0.2s); 
+
+                    }
+    
+                }
+                &:hover .blog-img-overlay{
+                    background-color: rgba(0, 0, 0, 0.596);
+                }
+                &:hover h4{
+                    bottom: 50%;
+                    transform: translate(-50%,-50%);
+                }
+            }
+            
+        }
+    }
+    
+    
+}

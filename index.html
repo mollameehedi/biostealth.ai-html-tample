@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" scroll>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
     <title>Biostealth | Home</title>
@@ -34,25 +36,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link  active" href="#">COPD Management<span class="sr-only">(current)</span></a>
+              <a class="nav-link  active" href="index.html#managements">COPD Management<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Employee Wellness</a>
+              <a class="nav-link" href="index.html#employee_wellness">Employee Wellness</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Core Team</a>
+              <a class="nav-link" href="index.html#index-team">Core Team</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Resources
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">White Papers</a>
-                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="paper.html">White Papers</a>
+                <a class="dropdown-item" href="blog.html">Blog</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link m-btn  mobile-none-btn" href="#">Request Demo</a>
+              <a class="nav-link m-btn  mobile-none" href="#">Request Demo</a>
             </li>
           </ul>
         </div>
@@ -73,6 +75,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h3>We are a London based Medical Technology startup focusing on prevention and management of chronic respiratory diseases.</h3>
+            <a class="nav-link m-btn  desk_none mobile-block" href="#">Request Demo</a>
           </div>
         </div>
       </div>
@@ -84,6 +87,7 @@
   <!--  =================================
             COPD Management part  start
     ======================================= -->
+    <div id="managements"></div>
     <section id="management">
         <div class="copd-Content">
               <div class="container">
@@ -160,6 +164,11 @@
       <div class="expart-item">
         <div class="container">
           <div class="row">
+            <div class="col-lg-5 desk_none mobile-block">
+              <div class="expart-img">
+                <img src="images/platforms/expart.png" class="img-fluid" alt="">
+              </div>
+            </div>
             <div class="col-lg-6 offset-lg-1 ml-auto mr-auto">
               <div class="expart-content">
                <div class="header-center">
@@ -174,8 +183,8 @@
                 </ul>
               </div>
              </div>
-            <div class="col-lg-5">
-              <div class="expart-img">
+            <div class="col-lg-5 mobile-none">
+              <div class="expart-img ">
                 <img src="images/platforms/expart.png" class="img-fluid" alt="">
               </div>
             </div>
@@ -282,11 +291,11 @@
               </div>
                <ul>
                  <li>Heart Rate</li>
-                 <li>SpO2</li>
                  <li>Heart Rate Variability</li>
+                 <li>SpO2</li>
                  <li>Sedentary time</li>
                </ul>
-               <p class="p14">As an employer, the platform provides you with regular anonymised reports to help you identify common issues among all employees, departments or teams, in order to address such issues and increase workplace satisfaction and productivity. </p>
+               <p class="p14">With Physio, Sree monitors your blood oxygen, heart rate, heart rate variability and sedentary levels for anomalies to aid in the early detection of cardiovascular and respiratory diseases in the workplace. </p>
              </div>
             </div>
           </div>
@@ -305,6 +314,11 @@
       <div class="talk-item">
         <div class="container">
           <div class="row">
+            <div class="col-lg-8 desk_none mobile-block ">
+              <div class="talk-img">
+                <img src="images/platforms/talk.png" class="img-fluid" alt="">
+              </div>
+            </div>
             <div class="col-lg-4 p-0 ml-auto mr-auto">
               <div class="talk-content">
                <div class="header-center">
@@ -320,7 +334,7 @@
                 <p class="p14">Our Talk system allows you to select and talk to appropriate mental health experts, as well as to keep track of your mood, help reduce stress and optimise workplace engagement. </p>
               </div>
              </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 mobile-none">
               <div class="talk-img">
                 <img src="images/platforms/talk.png" class="img-fluid" alt="">
               </div>
@@ -362,7 +376,7 @@
                   specific workplace satisfaction</li>
                </ul>
                <div class="clr"></div>
-               <p class="p14">With Physio, Sree monitors your blood oxygen, heart rate, heart rate variability and sedentary levels for anomalies to aid in the early detection of cardiovascular and respiratory diseases in the workplace.</p>
+               <p class="p14">As an employer, the platform provides you with regular anonymized reports to help you identify common issues among all employees, departments or teams, in order to address such issues and increase workplace satisfaction and productivity. </p>
              </div>
             </div>
           </div>
@@ -378,8 +392,8 @@
             Core team part  start
     ============================ -->
   <section id="index-team">
-    <div class="container">
-      <div class="row">
+    <div  class="container">
+      <div class="row" >
       <div class="col-lg-12 text-center">
        <h3 class class="text-center"> Core Team</h3>
       </div>
@@ -454,7 +468,7 @@
 <!-- about main img part start -->
 <section id="contact-form">
   <div class="container">
-      <div class="row m-0 pl-5 pr-5">
+      <div class="row m-0 pl-5 mobile_p0 pr-5">
           <div class="col-lg-10 offset-lg-1">
             <div class="lert-success">
               <i class="fas fa-check"></i>
@@ -485,25 +499,25 @@
        <div class="footer_nav">
         <div class="container p-0">
           <div class="row">
-            <div class="col-lg-3 p-0">
+            <div class="col-lg-3 mobile-none p-0">
               <ul>
-                <li><a href="#">COPD Management</a></li>
+                <li><a href="#" class="active">COPD Management</a></li>
                 <li><a href="#">Employee Wellness</a></li>
               </ul>
             </div>
-            <div class="col-lg-3 p-0">
+            <div class="col-lg-3 mobile-none p-0">
               <ul>
                 <li><a href="#">Core Team</a></li>
                 <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
-            <div class="col-lg-3 p-0">
+            <div class="col-lg-3 mobile-none p-0">
               <ul>
                 <li><a href="#">Our White Papers</a></li>
                 <li><a href="#">Blog</a></li>
               </ul>
             </div>
-            <div class="col-lg-3 p-0">
+            <div class="col-lg-3 col-xs-12 p-0">
               <ul>
                 <li><a href="#">Our Privacy Policy</a></li>
                 <li><a href="#">Our Terms and Conditions</a></li>
@@ -520,6 +534,9 @@
       </script>
     </footer>
 
+        <!--========== back to part ends ==============-->
+<i class="fas fa-arrow-up" id="back-to"></i>
+<!--========== back to  part ends ==============-->
 
     <script src="js/jquery-1.12.4.min.js"></script>
    <script src="js/popper.min.js"></script>
@@ -527,5 +544,6 @@
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
    <script src="js/venobox.min.js"></script>
    <script src="js/script.js"></script>
+   <script src="js/Navbar.js"></script>
   </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 $('.memberImages').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -20,3 +22,8 @@ $('.memberImages').slick({
   });
 
   $('.venobox').venobox(); 
+
+  var mixer = mixitup('.mainMix');
+
+  $offset = $('.navbar').offset().top;
+

@@ -1,6 +1,6 @@
 // index page css is here
 #index-banner{
-    padding: 126px 0px 190px 0px;
+    padding: 126px 0px 140px 0px;
     h3{
         font-weight: 600;
         padding-right: 50px;
@@ -17,6 +17,7 @@
      #management{
        background-color: $fafa_col;
        padding-top: 48px;
+       margin-top: 50px;
         .copd-Content{
             h3{
               padding-bottom: 10px;
@@ -70,6 +71,8 @@
      #employee_wellness{
        background-color: $fafa_col;
        padding-top: 48px;
+       border-top: 50px solid $f2f3_col;
+       
         .copd-Content{
             h3{
               padding-bottom: 10px;
@@ -252,7 +255,7 @@
      #community{
       background: $f2f3_col;
       padding-top: 100px;
-      padding-bottom: 126px;
+      padding-bottom: 74px;
       .community-item{
         .community-img{
           margin-top: 72px;
@@ -517,6 +520,7 @@
      ===============================*/
     #index-team{
         padding-top: 68px;
+        border-top: 50px solid $f2f3_col;
         padding-bottom: 112px;
         .team-header{
             p{
@@ -575,6 +579,7 @@
         .m-btn{
             padding: 0px 13px 0 50px;
             position: relative;
+            font-size: 18px;
             @include trans(.3s, 0s);
             i{
                 position: absolute;
@@ -760,8 +765,37 @@
               letter-spacing: normal;
               text-align: center;
               color: #5a67b2;
+              position: relative;
+              &::after{
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 0%;
+                background-color: $main_col;
+                left: 0;
+                bottom: 0;
+                border: 0px;
+                @include trans(0.3s,0s);
+              }
                &:hover {
-                  color: #5a67b2; 
+                  color: #4556b7; 
+                }
+                &:hover::after{
+                  width: 100%;
+                }
+                &.active{
+                  position: relative;
+                  &::after{
+                    content: '';
+                    position: absolute;
+                    height: 1px;
+                    width: 100%;
+                    background-color: $main_col;
+                    left: 0;
+                    bottom: 0;
+                    border: 0px;
+                    @include trans(0.3s,0s);
+                  }
                 }
               }
            }
